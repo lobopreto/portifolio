@@ -26,6 +26,10 @@ img#lobo{
     
 }
 
+img#lobo:hover{
+ transform: scale(1.2);   
+}
+
 
 nav{
     float: right;
@@ -39,6 +43,9 @@ nav > a{
     text-decoration: none;
     color: white;
     padding: 10px;
+}
+nav > a:hover{
+    font-weight: bolder;
 }
 
 body{
@@ -78,6 +85,11 @@ img#principal{
     padding-right: 19px;
     height: 60px;
     
+}
+
+img#principal:hover{
+ 
+    transform: scale(1.2);
 }
 
 
